@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM Simulator</title>
+    <style>
+        body { text-align: center; font-family: Arial; background: #e9f5ff; }
+        h1 { color: #0066cc; }
+        button { margin: 10px; padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+<h1>🏧 Welcome to the ATM Simulator</h1>
+
+<form action="/deposit" method="get">
+    <button type="submit">Deposit</button>
+</form>
+
+<form action="/withdraw" method="get">
+    <button type="submit">Withdraw</button>
+</form>
+
+<form action="/balance" method="get">
+    <button type="submit">Check Balance</button>
+</form>
+
+<form action="/exit" method="get">
+    <button type="submit">Exit</button>
+</form>
+
+</body>
+</html>
